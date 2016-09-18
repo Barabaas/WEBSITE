@@ -1,0 +1,131 @@
+* {
+	color: white;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 1em;
+}
+ul{
+	size: 100%px;
+}
+li{
+	display: inline-block;
+	height: 100%;	
+	width: 25%;	
+	background-color: #12FFCA;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Yatra One', cursive;
+}
+li:hover{
+    background-color: lightyellow;
+    color: green;
+    box-shadow: 2px 2px 5px #123;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Yatra One', cursive;
+}
+.extra{
+	border:0px;
+	border-radius: 5%;
+}
+
+/* 	\/ 	\/  DIVISION CLASSES  		\/ 	\/ \/ */
+
+.header {
+	height: 200px;
+    padding: 20px;
+    background-image: url("../IMG/footer.png")
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.navi{
+	display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+.col-1 {width: 8.33%; background-color: red;}
+.col-3 {width: 25%;background-color: #12FFCA;}
+.col-5 {height: 300px;width: 41.66%;}
+.col-7 {width: 58.33%; box-shadow: 5px 5px 5px #123;padding-bottom: 10px;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%; background-image: url("../IMG/blokjes2.jpg");backface-visibility: 20%;background-color: #00CFA1;}
+.col-10 {width: 78%;}
+.col-11 {width: 91.66%;}
+.col-12 {
+	width: 100%; 
+	height: 100%; 
+	float: all;
+	background-image: url("../IMG/footer.png");    
+	box-shadow: 5px 5px 5px #123;}
+.col-13{width: 6%;}
+}
+footer{
+	height: auto;
+	min-width: 100%;
+	height: auto;
+}
+h1{
+	background-color: transparent;
+	color: white;
+	font-family: 'Delius Swash Caps', cursive;
+	text-align: right;
+	font-size: 2.1em;
+	box-shadow: 15px 5px 45px grey;
+	border-radius: 25px 0px 16px 5px;
+	padding: 20px 350px 10px 50px;
+	background-image: url("../img/BG3.gif");
+
+}
+h2{
+	background-color: transparent;
+	color: black;
+
+    font-family: 'Yatra One', cursive;	
+    text-align: right;
+	font-size: 2.1em;
+	box-shadow: 15px 5px 10px grey;
+	border-radius: 25px 5px 0px 16px;
+	padding: -20px 350px 10px 50px;
+	background-image: url("../img/PATROONhalf.PNG");
+
+}
+h3{
+
+font-family: 'Open Sans', sans-serif;
+    font-family: 'Yatra One', cursive;		
+    background-image: url("../img/PATROONhalf.PNG"):	;
+		padding: auto;
+}
+p{
+font-family: 'Open Sans', sans-serif;
+    font-family: 'Yatra One', cursive;		
+	padding-top: 15px;
+	background-color: transparent;
+	color: black;
+	font-size: 1.1em;
+	text-shadow: 4px 2px 5px lightgrey;
+}
+a{
+	font-family: 'Delius Swash Caps', cursive;
+	font-family: 'IM Fell English', serif;
+	background-color: #12FFCA;
+	width: 100%;
+	border: 10px;
+	border-radius: 25px;
+}
+a:hover{
+	    color: white;
+}
+.wrapper{
+	background-image: url("../IMG/BG2.gif");
+	width: 100%;
+	height: 100%;
+
+}

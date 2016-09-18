@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Oswald';
+
+@import "susy";
+
+body {
+  @include container(60%);
+  font-family: 'lato';
+  font-weight: 200;
+  background: #F1C40F;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+h2{
+  font-size: 2.2em;
+}
+
+.title-style {
+  font-family: 'Oswald';
+  color: #4862A3;
+  margin: 0;
+  line-height: 1em;
+}
+
+.tooltip{
+  position: relative;
+  color: #3B627E;
+  font-weight: bolder;
+  cursor: pointer;
+  &:hover::before{
+    content: "";
+    border: solid transparent;
+    border-bottom-color: #4862A3;
+    border-width: 10px;
+    position: absolute;
+    top: 20px;
+  }
+  
+  &:hover::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    min-width: 15em;
+    font-weight: 100;
+    line-height: 1.3em;
+    margin: 0;
+    background: #4862A3;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    right: 10%;
+    top: 40px;
+    z-index: 1;
+    font-size: .7em;
+  }
+}
